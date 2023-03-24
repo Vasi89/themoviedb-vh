@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 import { Container, InputGroup, FormControl} from 'react-bootstrap';
 import { fetchMovies } from './api';
 import MovieDetail from './components/MovieDetail';

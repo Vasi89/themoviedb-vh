@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { Table, Card, Button, Modal, Form } from 'react-bootstrap';
 import $ from 'jquery';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const MovieTable = ({ movies, handleMovieClick }) => {
+const MovieTable = ({ movies, handleMovieClick, }) => {
   const [showEditModal, setShowEditModal] = useState(false);
   const [selectedMovie, setSelectedMovie] = useState(null);
   const [editedMovie, setEditedMovie] = useState({
@@ -76,7 +77,7 @@ const MovieTable = ({ movies, handleMovieClick }) => {
             <th>Data di fine</th>
             <th>Numero di sala</th>
             <th>Mi piace Ricevuti</th>
-            <th>Popularita</th>
+            <th>Popolarità</th>
             <th>Azioni</th>
           </tr>
         </thead>

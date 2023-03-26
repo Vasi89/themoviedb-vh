@@ -1,17 +1,28 @@
-Ho creato un'applicazione React per visualizzare i film in programmazione. Ho iniziato definendo la struttura dei componenti dell'applicazione. Ho creato un componente principale chiamato App, che conterrà la lista dei film in programmazione e il componente di dettaglio del film selezionato.
+Ho creato un'applicazione React per visualizzare i film in programmazione. 
+Ho iniziato definendo la struttura dei componenti dell'applicazione. Ho creato un componente principale chiamato App,
+che conterrà la lista dei film in programmazione e il componente di dettaglio del film selezionato.
 
-Per ottenere l'elenco dei film in programmazione, ho deciso di utilizzare la libreria Axios per effettuare le richieste HTTP all'API di TMDB. Ho salvato la lista dei film ottenuti dall'API nello state di React, che poi ho passato come props ai componenti figli per visualizzarli.
+Per ottenere l'elenco dei film in programmazione, ho deciso di utilizzare la libreria Axios per effettuare le richieste HTTP all'API di TMDB.
+Ho salvato la lista dei film ottenuti dall'API nello state di React, che poi ho passato come props ai componenti figli per visualizzarli.
 
-Ho implementato il componente FilmList per visualizzare la lista dei film in programmazione, mostrando il titolo, la data di inizio e di fine programmazione ed il numero di sala. Ho anche implementato il componente MovieDetail per visualizzare le informazioni dettagliate sul film selezionato, come la locandina, il titolo del film, la descrizione e le date della programmazione.
+Ho implementato il componente MovieList per visualizzare la lista dei film in programmazione, mostrando il titolo, la data di inizio
+e di fine programmazione ed il numero di sala. Ho anche implementato il componente MovieTable per visualizzare le informazioni dettagliate
+sul film selezionato, come la locandina, il titolo del film, la descrizione e le date della programmazione.
 
-Ho aggiunto la funzionalità di selezione del film dalla lista, in modo che quando un utente clicca su un film, il componente MovieList mostri le informazioni dettagliate del film selezionato. Ho anche aggiunto la possibilità di ordinare la lista dei film per data di inizio o titolo e la possibilità di filtrare la lista dei film per titolo.
+Ho aggiunto la funzionalità di selezione del film dalla lista, in modo che quando un utente clicca su un film,
+il componente MovieList mostri le informazioni dettagliate del film selezionato. Ho anche aggiunto la possibilità
+di ordinare la lista dei film per data di inizio o titolo e la possibilità di filtrare la lista dei film per titolo.
 
 Ho implementato il design e il layout dell'applicazione facendo uso di una libreria come Bootstrap per semplificare la creazione del layout.
 
-Per creare il progetto React, ho utilizzato il comando create-react-app e ho installato le librerie necessarie per effettuare le chiamate API, come ad esempio Axios o Fetch. Ho creato i componenti principali dell'applicazione: MovieList MovieTable e api.js.
+Per creare il progetto React, ho utilizzato il comando create-react-app e ho installato le librerie necessarie per effettuare le chiamate API,
+come ad esempio Axios o Fetch. Ho creato i componenti principali dell'applicazione: MovieList MovieTable e api.js.
 
-Ho configurato l'API di TMDB, ottenendo una API key per le chiamate e ho utilizzato l'API per ottenere la lista dei film in programmazione, utilizzando la chiamata discover/movie con i parametri adeguati (ad esempio, "movie.title","movie.release_date" per ottenere i film usciti in un determinato intervallo di date).
+Ho configurato l'API di TMDB, ottenendo una API key per le chiamate e ho utilizzato l'API per ottenere la lista dei film in programmazione,
+utilizzando la chiamata discover/movie con i parametri adeguati (ad esempio, "movie.title","movie.release_date" per ottenere i film usciti in
+un determinato intervallo.
 
-Ho implementato un evento onClick sul titolo del film per visualizzare il dettaglio del film nella pagina MoviDetail e ho utilizzato l'API di TMDB per ottenere le informazioni dettagliate sul film selezionato, utilizzando la chiamata movie/:id con l'ID del film selezionato.
+Ho implementato un evento onClick sul titolo del film per visualizzare il dettaglio del film nella pagina MovieTable e ho utilizzato
+l'API di TMDB per ottenere le informazioni dettagliate sul film selezionato, utilizzando la chiamata movie/:id con l'ID del film selezionato.
 
 Spero che il mio progetto possa essere utile.

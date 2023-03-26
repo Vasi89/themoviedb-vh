@@ -4,7 +4,7 @@ Per ottenere l'elenco dei film in programmazione, ho deciso di utilizzare la lib
 
 Ho implementato il componente FilmList per visualizzare la lista dei film in programmazione, mostrando il titolo, la data di inizio e di fine programmazione ed il numero di sala. Ho anche implementato il componente MovieDetail per visualizzare le informazioni dettagliate sul film selezionato, come la locandina, il titolo del film, la descrizione e le date della programmazione.
 
-Ho aggiunto la funzionalità di selezione del film dalla lista, in modo che quando un utente clicca su un film, il componente MovieDetail mostri le informazioni dettagliate del film selezionato. Ho anche aggiunto la possibilità di ordinare la lista dei film per data di inizio o titolo e la possibilità di filtrare la lista dei film per titolo.
+Ho aggiunto la funzionalità di selezione del film dalla lista, in modo che quando un utente clicca su un film, il componente MovieList mostri le informazioni dettagliate del film selezionato. Ho anche aggiunto la possibilità di ordinare la lista dei film per data di inizio o titolo e la possibilità di filtrare la lista dei film per titolo.
 
 Ho implementato il design e il layout dell'applicazione facendo uso di una libreria come Bootstrap per semplificare la creazione del layout.
 
